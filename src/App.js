@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from "./logo.svg";
+import "./App.css";
+import Bookkeeping from "./components/Bookkeeping";
+import Entrylist from "./components/Entrylist";
+import ChessGrid from "./components/ChessGrid";
 
 function App() {
+  /*
+  Config: 
+   */
+  const namesList = ["Saber", "Archer", "Lancer"];
+  const des = [
+    "To get the main info",
+    "Fetch some info from Web",
+    "Request a specific API",
+  ];
+  var nameMap = namesList.map((e, i) => [e, des[i]]);
+  console.log(nameMap);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="outsideContainer">
+      <header className="App-header">ROSETTA STONE</header>
+      <Bookkeeping></Bookkeeping>
+      <Entrylist entryPairs={nameMap}></Entrylist>
+      <ChessGrid></ChessGrid>
     </div>
   );
 }

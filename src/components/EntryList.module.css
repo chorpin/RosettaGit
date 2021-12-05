@@ -1,0 +1,8 @@
+.entryContainer {
+  display: flex;
+  background: linear-gradient(rgb(179, 179, 189), pink);
+
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3vh;
+}

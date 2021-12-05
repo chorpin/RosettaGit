@@ -1,0 +1,8 @@
+.Entry {
+  display: flex;
+  align-items: center;
+  background-color: cornsilk;
+  flex-direction: column;
+  padding: 5px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,11 @@
+.chessGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  background: linear-gradient(rgb(202, 61, 89), rgba(255, 255, 255, 0.26));
+}
+.el1 {
+  grid-column: 1/3;
+  grid-row: 1;
+}
