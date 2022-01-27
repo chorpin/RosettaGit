@@ -1,0 +1,22 @@
+.expenseContainerOrigin {
+  display: grid;
+  padding: 5px;
+  row-gap: 5px;
+  border: dashed rgb(27, 34, 105) 3px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3vh;
+}
+.expenseContainer {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+}

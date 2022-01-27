@@ -2,11 +2,9 @@
   display: grid;
   padding: 5px;
   row-gap: 5px;
-  border: dashed rgb(15, 211, 103) 3px;
+  border: dashed rgb(27, 34, 105) 3px;
 
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3vh;
-}
-.submitButton {
 }
